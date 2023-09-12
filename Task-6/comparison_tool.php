@@ -22,7 +22,6 @@
     //use ternary operator
     $result = ($num1 > $num2) ? $num1 : $num2;
   }
-
   ?>
 
   <h1>Comparison Tool</h1>
