@@ -55,10 +55,10 @@
 
   <?php
   //Display the average and curresponding Grade
-  if (isset($average) && isset($letter_grade)) {
-    echo "<p><strong>Average Score: </stroung>$average</p>";
-    echo "<p><strong>Letter Grade: </strong>$letter_grade</p>";
-  }
+if(isset($average) && isset($letter_grade)){
+  echo"<p><strong>Average Score: </stroung>$average</p>";
+  echo"<p><strong>Letter Grade: </strong>$letter_grade</p>";
+}
 
   ?>
 
